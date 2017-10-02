@@ -32,6 +32,10 @@ public class AverageOfQuizzes {
 		System.out.print("The scores entered were: ");
 		for(int x = 0; x < count; ++x)
 			System.out.println(scores[x] + " ");
+		if(count != 0)
+			System.out.println("\nThe average is " + (total * 1)/count);
+		else 
+			System.out.println("No scores entered");
 	}
 
 }
