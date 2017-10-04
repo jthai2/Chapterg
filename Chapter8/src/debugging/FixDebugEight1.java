@@ -1,6 +1,3 @@
-// Application prompts user showing valid shipping codes
-// accepts a shipping code
-// and determines if it is valid
 package debugging;
 
 import javax.swing.*;
@@ -28,7 +25,7 @@ public class FixDebugEight1
       {
          if(userCode == okayCodes[i])
          {
-            found = false;
+            found = true;
          }
       }
       if(found)
