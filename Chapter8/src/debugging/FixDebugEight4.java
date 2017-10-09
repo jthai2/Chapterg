@@ -1,5 +1,3 @@
-// Allows user to enter a series of words
-// and displays them in reverse order
 package debugging;
 
 import javax.swing.*;
@@ -13,7 +11,7 @@ public class FixDebugEight4
       String entry;
       final String STOP = "XXX";
       StringBuffer message = new
-          StringBuffer("The words in reverse order are:\n");
+          StringBuffer("The words in reverse order are\n");
      
       entry = JOptionPane.showInputDialog(null,
          "Enter any word\n" +
